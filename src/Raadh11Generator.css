@@ -1,0 +1,99 @@
+.raadh11-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.raadh11-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.raadh11-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.raadh11-button:hover {
+  background-color: #0056b3;
+}
+
+.raadh11-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.raadh11-list li {
+  margin-bottom: 10px;
+}
+
+.raadh11-message {
+  margin-top: 20px;
+  font-size: 20px;
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: darkblue;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  .raadh11-container {
+    padding: 30px;
+  }
+  
+  .raadh11-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .raadh11-button {
+    font-size: 18px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .raadh11-container {
+    max-width: 800px;
+  }
+}
+.raadh11-clear-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px; /* Add margin to separate from the message */
+}
+
+.raadh11-clear-button:hover {
+  background-color: #c82333;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  .raadh11-clear-button {
+    font-size: 18px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* No specific styles for medium devices */
+}
