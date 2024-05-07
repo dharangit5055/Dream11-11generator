@@ -1,3 +1,5 @@
+/* Raadh11Generator.css */
+
 .raadh11-container {
   max-width: 600px;
   margin: 0 auto;
@@ -26,10 +28,22 @@
 .raadh11-list {
   list-style-type: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  /* grid-column-gap: 10px; */
 }
 
 .raadh11-list li {
+  font-weight: bold; /* Make text bold */
   margin-bottom: 10px;
+}
+
+.green {
+  color: black;
+}
+
+.red {
+  color: red;
 }
 
 .raadh11-message {
@@ -38,38 +52,21 @@
   color: green;
 }
 
-.red {
-  color: red;
+.raadh11-generate-c-vc-button {
+  margin-right: 10px; /* Adjust as needed */
+  padding: 8px 16px; /* Adjust as needed */
+  background-color: #007bff; /* Adjust color as needed */
+  color: #fff; /* Adjust color as needed */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.green {
-  color: darkblue;
+.raadh11-generate-c-vc-button:hover {
+  background-color: #0056b3; /* Adjust hover color as needed */
 }
 
-/* Media Queries for Responsive Design */
-
-/* Small devices (phones, 576px and up) */
-@media (min-width: 576px) {
-  .raadh11-container {
-    padding: 30px;
-  }
-  
-  .raadh11-title {
-    font-size: 28px;
-    margin-bottom: 30px;
-  }
-  
-  .raadh11-button {
-    font-size: 18px;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .raadh11-container {
-    max-width: 800px;
-  }
-}
 .raadh11-clear-button {
   background-color: #dc3545;
   color: #fff;
@@ -88,6 +85,19 @@
 
 /* Small devices (phones, 576px and up) */
 @media (min-width: 576px) {
+  .raadh11-container {
+    padding: 30px;
+  }
+  
+  .raadh11-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .raadh11-button {
+    font-size: 18px;
+  }
+  
   .raadh11-clear-button {
     font-size: 18px;
   }
@@ -95,5 +105,7 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* No specific styles for medium devices */
+  .raadh11-container {
+    max-width: 800px;
+  }
 }
