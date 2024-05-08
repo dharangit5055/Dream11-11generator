@@ -25,12 +25,29 @@
   background-color: #0056b3;
 }
 
+.raadh11-list-container {
+  display: flex;
+  justify-content: space-between; /* Separate left and right lists */
+  margin-bottom: 10px; /* Add margin bottom to create space between the lists */
+}
+
 .raadh11-list {
   list-style-type: none;
   padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
-  /* grid-column-gap: 10px; */
+}
+
+.raadh11-list.left-list {
+  flex-grow: 1; /* Allow the left list to grow to fill available space */
+  text-align: left; /* Align text to the left */
+  margin-right: 0px; /* Add margin to the right of the left list */
+  text-align: center;
+}
+
+.raadh11-list.right-list {
+  flex-grow: 1; /* Allow the right list to grow to fill available space */
+  text-align: right; /* Align text to the right */
+  margin-left: 10px; /* Add margin to the left of the right list */
+  text-align: center;
 }
 
 .raadh11-list li {
@@ -44,6 +61,21 @@
 
 .red {
   color: red;
+}
+.black {
+  color: black;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+.cap{
+  font-weight: 500;
+}
+.v-cap{
+  font-weight: 500;
 }
 
 .raadh11-message {
